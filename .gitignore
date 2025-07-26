@@ -1,0 +1,37 @@
+# === Android ===
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.idea/
+local.properties
+.DS_Store
+*.keystore
+*.jks
+*.log
+
+# === Java/Spring Boot ===
+/SamajConnectBackEnd/target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# === VS Code ===
+.vscode/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Environment Configs ===
+.env
+*.env
