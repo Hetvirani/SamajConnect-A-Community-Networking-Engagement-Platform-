@@ -1,4 +1,4 @@
-# SamajConnect – A Community Networking & Engagement Platform
+# 📱 SamajConnect – A Community Networking & Engagement Platform
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-181717?style=flat-square&logo=githubpages&logoColor=white)](https://hetvirani.github.io/Digital-Portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-Hetvirani-181717?style=flat-square&logo=github)](https://github.com/Hetvirani)
@@ -6,80 +6,142 @@
 
 ---
 
-## Overview
+## 📌 Overview
 
-**SamajConnect** is a robust Android-based platform designed to foster stronger communities by enabling seamless group management, networking, and real-time engagement. Developed during my internship at BISAG-N (Bhaskaracharya National Institute for Space Applications and Geo-informatics), this app empowers users to create, manage, and participate in Samaj (community) groups, organize events, and visualize complex familial relationships in an intuitive, tree-based format.
+**SamajConnect** is an Android-based community networking and engagement platform developed during an internship at **BISAG-N** (Bhaskaracharya National Institute for Space Applications and Geo-Informatics). It enables users to:
 
----
+- Create and manage Samaj (community) groups
+- Explore dynamic family trees
+- Send and accept relation requests
+- Participate in events
+- Donate towards community causes
 
-## ✨ Key Features
-
-- **Community Group Management:**  
-  Create and manage Samaj (community) groups with ease.
-- **Dynamic Relationship Mapping:**  
-  Visualize generation-wise, tree-based family connections and send/accept relation requests.
-- **Member Profiles:**  
-  View, update, and connect with other community members.
-- **Real-Time Updates:**  
-  Stay informed with instant notifications and news within your community.
-- **Event Donations & Participation:**  
-  Participate in events and make donations securely.
-- **Secure Authentication:**  
-  User authentication and robust profile management.
+It bridges traditional community culture with modern technology.
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Key Features
 
-- **Frontend:** Java (Android), Canvas API, Android Jetpack, Firebase Cloud Messaging
-- **Backend:** Spring Boot (RESTful APIs)
-- **Database:** PostgreSQL, Firebase
-- **Tools:** Android Studio, VS Code
+- 👨‍👩‍👧‍👦 **Dynamic Relationship Mapping:**  
+  Tree-based, generation-wise visualization of family connections
+
+- 👥 **User & Admin Access:**  
+  Authentication for both regular members and administrators
+
+- 🗂️ **Profile Management:**  
+  View and edit member details, search relatives, and explore connections
+
+- 🏡 **Event Management & Donations:**  
+  View upcoming events and contribute through integrated payment logic
 
 ---
 
-## 📷 Screenshots
+## ⚙️ Tech Stack
 
-<!-- Add screenshots here by placing images in your repo and linking them like below -->
-<!-- ![Home Screen](screenshots/home.png) -->
-<!-- ![Relationship Tree](screenshots/tree.png) -->
+| Layer | Technology |
+|-------|------------|
+| Frontend | Java, Android SDK, XML, Canvas API |
+| Backend | Spring Boot, REST APIs |
+| Database | PostgreSQL |
+| Tools | Android Studio, VS Code, GitHub |
 
 ---
 
-## 🚀 Getting Started
+## 📂 Project Structure
 
-1. **Clone this repo:**
+```
+SamajConnect/
+├── SamajConnectFrontEnd/     # Android app code
+│   ├── app/
+│   ├── .gradle/
+│   └── ...
+├── SamajConnectBackEnd/      # Spring Boot backend
+│   ├── src/
+│   └── target/
+├── docs/                     # Report, presentation, screenshots
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🛠️ Setup & Installation
+
+### 🔧 Prerequisites
+
+- Android Studio
+- Java JDK 11+
+- PostgreSQL
+- Spring Boot (installed or via IntelliJ/VS Code)
+
+---
+
+### 🧪 Steps to Run
+
+1. **Clone the repo**
    ```bash
    git clone https://github.com/Hetvirani/SamajConnect-A-Community-Networking-Engagement-Platform-.git
    ```
-2. **Open in Android Studio** and sync Gradle.
-3. **Set up backend API** (Spring Boot) and configure database (PostgreSQL).
-4. **Run the app** on an emulator or Android device.
 
-_See the [docs](./docs/) directory for more setup details and API references._
+2. **Open frontend in Android Studio**
+   - Sync Gradle
+   - Set up Firebase credentials in `google-services.json`
+
+3. **Set up backend**
+   - Configure PostgreSQL DB credentials in `application.properties`
+   - Run the Spring Boot app
+
+4. **Launch the app**
+   - Login or Sign up
+   - Explore family trees, events, and admin dashboard
 
 ---
 
-## 📚 Learn More
+## 🧠 Functional Modules
 
-- [My Digital Portfolio](https://hetvirani.github.io/Digital-Portfolio/)
-- [LinkedIn – Het Virani](https://www.linkedin.com/in/het-virani/)
-- [GitHub – Hetvirani](https://github.com/Hetvirani)
+- 👤 **User Authentication**
+- 🌳 **Family Tree Mapping**
+- 📨 **Relation Request Flow**
+- 🗓️ **Event Participation**
+- 💸 **Donation System**
+- 🔍 **Member Search & Filter**
+- 🛠️ **Admin Dashboard for Samaj Management**
+
+---
+
+## 📸 Screenshots
+
+> _(Add actual screenshots here once available)_
+
+| Family Tree View | Event Page | Admin Dashboard |
+|------------------|------------|-----------------|
+| ![tree](docs/tree.png) | ![event](docs/event.png) | ![admin](docs/admin.png) |
+
+---
+
+## 🧾 Documentation
+
+You can find the full project report, diagrams, and more inside the `/docs/` folder.
+
+- ✅ Report PDF (`2025G093.pdf`)
+- ✅ Circuit Diagram / Family Tree Flow
+- ✅ Firebase Messaging Setup
 
 ---
 
 ## 👨‍💻 Author
 
 **Het Virani**  
-Android Developer Intern @ BISAG-N  
-Email: hetvirani1305@gmail.com
+📧 Email: hetvirani1305@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/het-virani/) | [GitHub](https://github.com/Hetvirani)
 
 ---
 
-> “Building communities with technology, one connection at a time.”
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
 
 ---
 
-<!--
-README generated by GitHub Copilot for SamajConnect-A-Community-Networking-Engagement-Platform-
--->
+> “Connecting Communities with Code 💻🌐”  
+> _Built during internship @ BISAG-N_
