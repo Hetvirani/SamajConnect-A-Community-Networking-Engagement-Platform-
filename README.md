@@ -111,7 +111,7 @@ SamajConnect/
 
 | Family Tree View | Event Page | Admin Dashboard |
 |------------------|------------|-----------------|
-| ![tree](docs/tree.png) | ![event](docs/event.png) | ![dashboard](docs/dashboard.png) |
+|![dashboard](docs/dashboard.png) | ![tree](docs/tree.png) | ![event](docs/events.png) | 
 
 ---
 
