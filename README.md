@@ -14,7 +14,6 @@
 - Explore dynamic family trees
 - Send and accept relation requests
 - Participate in events
-- Donate towards community causes
 
 It bridges traditional community culture with modern technology.
 
@@ -31,8 +30,8 @@ It bridges traditional community culture with modern technology.
 - 🗂️ **Profile Management:**  
   View and edit member details, search relatives, and explore connections
 
-- 🏡 **Event Management & Donations:**  
-  View upcoming events and contribute through integrated payment logic
+- 🏡 **Event Management:**  
+  View upcoming events
 
 ---
 
@@ -103,7 +102,6 @@ SamajConnect/
 - 🌳 **Family Tree Mapping**
 - 📨 **Relation Request Flow**
 - 🗓️ **Event Participation**
-- 💸 **Donation System**
 - 🔍 **Member Search & Filter**
 - 🛠️ **Admin Dashboard for Samaj Management**
 
@@ -111,11 +109,9 @@ SamajConnect/
 
 ## 📸 Screenshots
 
-> _(Add actual screenshots here once available)_
-
 | Family Tree View | Event Page | Admin Dashboard |
 |------------------|------------|-----------------|
-| ![tree](docs/tree.png) | ![event](docs/event.png) | ![admin](docs/admin.png) |
+| ![tree](docs/tree.png) | ![event](docs/event.png) | ![dashboard](docs/dashboard.png) |
 
 ---
 
@@ -125,7 +121,6 @@ You can find the full project report, diagrams, and more inside the `/docs/` fol
 
 - ✅ Report PDF (`2025G093.pdf`)
 - ✅ Circuit Diagram / Family Tree Flow
-- ✅ Firebase Messaging Setup
 
 ---
 
@@ -137,11 +132,5 @@ You can find the full project report, diagrams, and more inside the `/docs/` fol
 
 ---
 
-## 📄 License
-
-Licensed under the [MIT License](LICENSE).
-
----
-
 > “Connecting Communities with Code 💻🌐”  
-> _Built during internship @ BISAG-N_
+> Built during internship @ BISAG-N
